@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello , thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["123456", "1122"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you about the university admission process in National Textile University", "Offering support the best education facilities in campus."],
+         "context": [""]
+        },
+        {"tag": "Departments",
+         "patterns": ["How many departments?", "departments?", "Are they offering engineering subjects?", "Provide me list of all the departments", "Which department is better according to you?" ],
+         "responses": ["There are more than 8 departments including engineering, computer science, fashion design, visual arts, BBA, social sciences etc."],
+         "context": [""]
+        },
+        {"tag": "Entry test",
+         "patterns": ["Tell me about admission test?", "Is NTS is valid to get admission?", "Is there any entry exam to get admission?", "entry test for social science?" ],
+         "responses": ["NTU is a merit based university, Its not easy to get admission here, you have to score well in entry exam, NTS is valid to get admission, social science don't need any entry test."],
+         "context": [""]
+        },
+        {"tag": "university facilities",
+         "patterns": ["I want to know about university facitlites like hostel, cafeterica,sports club etc.", "Tell me about university facilities.", "sports club?", "mechanical labs" ],
+         "responses": ["NTU offers best facilities in the campus including hostel, cafeteria, sports club, you can join the socities to boost your confidence and to groom your personality."],
+         "context": ["search for facilities"]
+        },
+        {"tag": "sports activities",
+         "patterns": ["I want to know about sports activities and socities ","sports socities "],
+         "responses": ["NTU offers sports activities including sports week, leagues, society events and my others. NTU also have a gym. You can train there and keep yourself fit."],
+         "context": ["ask about sports"]
+        },
+        {"tag": "engineering",
+         "patterns": ["what kind of engineering they offer?", "engineering departments", "merit to get admission in engineering departments", "textile engineering", "famous for which department" ],
+         "responses": ["In NTU, textile engineering is the major type and it can has sub departments includes Garments,Spinning,Knitting,Weaving,Processing etc. This department is famous all over the country, you have to score well to get admission. "],
+         "context": [""]
+        },
+        {"tag": "computer science",
+         "patterns": ["what kind of technology they offer?", "computer science departments", "merit to get admission in cs departments", "computer science", "famous for computer science?"],
+         "responses": ["In NTU, computer science is the major type and it can has sub departments includes cs, Information Technology, Software Engineering,Artifical Intelligence etc. These department are famous if we talk about at city level, you have to score well to get admission. "],
+         "context": [""]
+        },
+        {"tag": "Fee Structure",
+         "patterns": ["fee structure for all department", "fee details", "fee for engineering", "fee for computer science", "fee for BBA" ],
+         "responses": ["In NTU, the fee structure is different for all departments, for engineering the total fee for 4 years is 5lakh RS,for Computer science 6lakh RS,for BBA 12lakh RS,for fashion design 12lakh RS. You can check the website for better understanding.For more information check this https://admissions.ntu.edu.pk/OAS/NTUW.aspx?App_MSqNo=null&CL=7OLGRrz3Fu6hHujRt/ZwMQ=="],
+         "context": [""]
+        },
+        {"tag": "scholarships",
+         "patterns": ["Is there any scholarship"," scholarship"],
+         "responses": ["In NTU , the scholarships are only for the position holders, but the other NGO's and the government offers scholarships."],
+         "context": [""]
+        },
+        {"tag": "feedback",
+         "patterns": ["what do you say for this university?"],
+         "responses": ["If you are a good student or you have patience then you should apply, but if you are a averge student then it will be a big mistake, There are many bright students in this university but they don't perform well due to pressure and lack of motivation. Best of luck!"],
+         "context": [""]
+        }
+   ]
+}
